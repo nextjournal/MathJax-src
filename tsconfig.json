@@ -3,7 +3,8 @@
   "compilerOptions": {
     "target": "ES5",
     "downlevelIteration": true,
-    "module": "commonjs",
+    "module": "amd",
+    "moduleResolution": "node",
     "declaration": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,

@@ -137,6 +137,7 @@ const PACKAGE = function (name, mathjax, libs, dir, dist) {
     name: name,
     entry: path.join(dir, name + '.js'),
     output: {
+      libraryTarget: 'umd',
       path: distDir,
       filename: name + (dist === '.' ? '.min.js' : '.js')
     },
